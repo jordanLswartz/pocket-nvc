@@ -10,6 +10,7 @@ import SwiftUI
 struct DetailsView: View {
     let chapterItem: Chapter
     var body: some View {
+        
         VStack(alignment: .leading) {
                   List {
                       ForEach(chapterItem.chapterContent, id: \.self) {

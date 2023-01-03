@@ -40,6 +40,9 @@ struct ContentView: View {
 }
 
 struct ChaptersView: View {
+    init() {
+        UILabel.appearance(whenContainedInInstancesOf: [UINavigationBar.self]).adjustsFontSizeToFitWidth = true
+    }
     var body: some View {
         NavigationView {
             List (chapterList) { chapterItem in
@@ -49,7 +52,7 @@ struct ChaptersView: View {
                             .font(.headline)
                     }.padding(3)
                 }
-                .navigationBarTitle("Sections")
+                .navigationBarTitle("Chapters")
             }
         }
     }

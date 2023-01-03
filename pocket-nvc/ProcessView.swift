@@ -13,6 +13,9 @@ struct ProcessView: View {
             VStack {
                 Group {
                     VStack {
+                        Text("The NVC Process \n").font(.largeTitle)
+                        Divider().background(Color.white)
+                        
                         Text("\n When you do W").font(.title)
                         Text("(actions we observe that affect our well-being) \n").multilineTextAlignment(.center).padding(.trailing, 5.0)
                         Divider().background(Color.white)
@@ -24,10 +27,9 @@ struct ProcessView: View {
                 Text("\nBecause I have a need for Y").font(.title)
                 Text("(needs/values/desires that create our feelings) \n").multilineTextAlignment(.center).padding(.trailing, 5.0)
                 Divider().background(Color.white)
-                Text("\nDo you think you could do Z?").font(.title)
+                Text("\nDo you think you can do Z?").font(.title)
                 Text("(actions we request to enrich our lives) \n").multilineTextAlignment(.center).padding(.trailing, 5.0)
             }
-            .navigationTitle("The NVC Process")
         }
     }
 }
