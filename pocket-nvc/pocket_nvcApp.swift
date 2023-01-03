@@ -9,9 +9,20 @@ import SwiftUI
 
 @main
 struct pocket_nvcApp: App {
+    @State private var showLaunchView: Bool = true
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack {
+                ContentView()
+                ZStack{
+                    if showLaunchView {
+                    LaunchView(showLaunchView: $showLaunchView)
+                            .transition(.move(edge: .leading))
+                    }
+                }
+                .zIndex(2.0)
+            }
         }
     }
 }

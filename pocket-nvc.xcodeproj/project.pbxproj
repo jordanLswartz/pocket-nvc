@@ -11,6 +11,17 @@
 		C18714C729620D950072A834 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18714C629620D950072A834 /* ContentView.swift */; };
 		C18714C929620D960072A834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C18714C829620D960072A834 /* Assets.xcassets */; };
 		C18714CC29620D960072A834 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C18714CB29620D960072A834 /* Preview Assets.xcassets */; };
+		C18714D329620DB60072A834 /* NeedsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18714D229620DB50072A834 /* NeedsView.swift */; };
+		C18714D529620DBF0072A834 /* FeelingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18714D429620DBF0072A834 /* FeelingsView.swift */; };
+		C18714D729620DC70072A834 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18714D629620DC70072A834 /* AboutView.swift */; };
+		C18714D929620DD20072A834 /* ProcessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18714D829620DD20072A834 /* ProcessView.swift */; };
+		C18714DB29620DE10072A834 /* PDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18714DA29620DE10072A834 /* PDFView.swift */; };
+		C18714DD29620E1E0072A834 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18714DC29620E1D0072A834 /* DetailsView.swift */; };
+		C18714E029620E320072A834 /* feelings.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C18714DE29620E320072A834 /* feelings.pdf */; };
+		C18714E129620E320072A834 /* needs.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C18714DF29620E320072A834 /* needs.pdf */; };
+		C18714E6296216E00072A834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18714E5296216E00072A834 /* LaunchScreen.storyboard */; };
+		C18714E8296219BD0072A834 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18714E7296219BD0072A834 /* LaunchView.swift */; };
+		C18714EC29636EB80072A834 /* chapterContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18714EB29636EB80072A834 /* chapterContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,18 @@
 		C18714C629620D950072A834 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C18714C829620D960072A834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C18714CB29620D960072A834 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C18714D229620DB50072A834 /* NeedsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedsView.swift; sourceTree = "<group>"; };
+		C18714D429620DBF0072A834 /* FeelingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingsView.swift; sourceTree = "<group>"; };
+		C18714D629620DC70072A834 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		C18714D829620DD20072A834 /* ProcessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessView.swift; sourceTree = "<group>"; };
+		C18714DA29620DE10072A834 /* PDFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFView.swift; sourceTree = "<group>"; };
+		C18714DC29620E1D0072A834 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		C18714DE29620E320072A834 /* feelings.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = feelings.pdf; sourceTree = "<group>"; };
+		C18714DF29620E320072A834 /* needs.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = needs.pdf; sourceTree = "<group>"; };
+		C18714E229620EE20072A834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C18714E5296216E00072A834 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C18714E7296219BD0072A834 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		C18714EB29636EB80072A834 /* chapterContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chapterContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +74,19 @@
 		C18714C329620D950072A834 /* pocket-nvc */ = {
 			isa = PBXGroup;
 			children = (
+				C18714E229620EE20072A834 /* Info.plist */,
 				C18714C429620D950072A834 /* pocket_nvcApp.swift */,
 				C18714C629620D950072A834 /* ContentView.swift */,
+				C18714D229620DB50072A834 /* NeedsView.swift */,
+				C18714D429620DBF0072A834 /* FeelingsView.swift */,
+				C18714EB29636EB80072A834 /* chapterContent.swift */,
+				C18714D629620DC70072A834 /* AboutView.swift */,
+				C18714DC29620E1D0072A834 /* DetailsView.swift */,
+				C18714D829620DD20072A834 /* ProcessView.swift */,
+				C18714DA29620DE10072A834 /* PDFView.swift */,
+				C18714DE29620E320072A834 /* feelings.pdf */,
+				C18714DF29620E320072A834 /* needs.pdf */,
+				C18714E3296216990072A834 /* Launch */,
 				C18714C829620D960072A834 /* Assets.xcassets */,
 				C18714CA29620D960072A834 /* Preview Content */,
 			);
@@ -65,6 +99,23 @@
 				C18714CB29620D960072A834 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C18714E3296216990072A834 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				C18714E4296216BE0072A834 /* Views */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		C18714E4296216BE0072A834 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C18714E5296216E00072A834 /* LaunchScreen.storyboard */,
+				C18714E7296219BD0072A834 /* LaunchView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +176,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C18714E129620E320072A834 /* needs.pdf in Resources */,
+				C18714E029620E320072A834 /* feelings.pdf in Resources */,
 				C18714CC29620D960072A834 /* Preview Assets.xcassets in Resources */,
+				C18714E6296216E00072A834 /* LaunchScreen.storyboard in Resources */,
 				C18714C929620D960072A834 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +191,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C18714DB29620DE10072A834 /* PDFView.swift in Sources */,
+				C18714D929620DD20072A834 /* ProcessView.swift in Sources */,
+				C18714D329620DB60072A834 /* NeedsView.swift in Sources */,
+				C18714D529620DBF0072A834 /* FeelingsView.swift in Sources */,
 				C18714C729620D950072A834 /* ContentView.swift in Sources */,
+				C18714EC29636EB80072A834 /* chapterContent.swift in Sources */,
+				C18714DD29620E1E0072A834 /* DetailsView.swift in Sources */,
 				C18714C529620D950072A834 /* pocket_nvcApp.swift in Sources */,
+				C18714E8296219BD0072A834 /* LaunchView.swift in Sources */,
+				C18714D729620DC70072A834 /* AboutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +332,10 @@
 				DEVELOPMENT_TEAM = XYY8LZWMJW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pocket-nvc/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = aunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +362,10 @@
 				DEVELOPMENT_TEAM = XYY8LZWMJW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pocket-nvc/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = aunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
